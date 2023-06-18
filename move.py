@@ -15,16 +15,9 @@ i=1
 while 1 :
     #provide random coordinate values to x,y to keep your mouse within those range
     x,y=r.randint(1074,1151),r.randint(354,433)
-
-    #can print can check your cordinates per loop, can be commented
-    #print("x= ", x , " y=", y)
-
- 
-
+   
     #Print the number of times the loop has run to keep a record, not necessary can be commented
     print("No. of times- ", i)
-
- 
 
     #to check on current time to keep track of time. Not necessary, can be removed
     now = datetime.now()
